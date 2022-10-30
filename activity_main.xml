@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elementary Basic Math"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/math"
+        android:layout_marginTop="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:text="        Addition is a way of combining things and counting them together as one large group. Addition in math is a process of combining two or more numbers. Addends are the numbers added, and the result or the final answer we get after the process is called the sum."
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/addition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add"
+        android:text="Addition :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingStart="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi1"
+        android:layout_below="@+id/addition"
+        android:paddingStart="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_200"
+        android:layout_marginTop="2dp"
+        android:text="Enter Number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi2"
+        android:layout_below="@+id/edi1"
+        android:paddingStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_200"
+        android:text="Enter Number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edi2"
+        android:layout_marginStart="10dp"
+        android:background="@color/purple_200"
+        android:layout_marginTop="2dp"
+        android:text="Add" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi3"
+        android:layout_below="@+id/edi2"
+        android:paddingStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_700"
+        android:text="Answer :"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+
+        />
+
+    <TextView
+        android:id="@+id/activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:text="Activity :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/imgadd"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/activity"
+        android:background="@drawable/b0aa0b981f60b10a3556938dc7f1b4bc"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+    />
+
+
+    <TextView
+        android:id="@+id/divi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgadd"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:text="        There are four parts of the division, which are dividend, divisor, Let us look at an example of division given below and understand the meanings of these four parts of the division. Here, when we divide 105 by 8, we get the values of a divisor, dividend, quotient, and remainder."
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divi"
+        android:text="Divition :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingStart="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi4"
+        android:layout_below="@+id/division"
+        android:paddingStart="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_200"
+        android:layout_marginTop="2dp"
+        android:text="Enter Number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi5"
+        android:layout_below="@+id/edi4"
+        android:paddingStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_200"
+        android:text="Enter Number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edi5"
+        android:layout_marginStart="10dp"
+        android:background="@color/purple_200"
+        android:layout_marginTop="2dp"
+        android:text="Divide" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi6"
+        android:layout_below="@+id/edi5"
+        android:paddingStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_700"
+        android:text="Answer :"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+
+        />
+
+    <TextView
+        android:id="@+id/activitydiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:text="Activity :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/imgdiv"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/activitydiv"
+        android:background="@drawable/e06a60c0588dd0527c2156a83bffffcb"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <TextView
+        android:id="@+id/subtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgdiv"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:text="        Subtraction is the operation of taking the difference of two numbers and . Here, is called the minuend, is called the subtrahend, and the symbol between the and is called the minus sign. The expression   is read  minus . Subtraction is the inverse of addition, so ."
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/subtraction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtract"
+        android:text="Subtraction :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingStart="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi7"
+        android:layout_below="@+id/subtraction"
+        android:paddingStart="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_200"
+        android:layout_marginTop="2dp"
+        android:text="Enter Number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi8"
+        android:layout_below="@+id/edi7"
+        android:paddingStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_200"
+        android:text="Enter Number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edi8"
+        android:layout_marginStart="10dp"
+        android:background="@color/purple_200"
+        android:layout_marginTop="2dp"
+        android:text="Subtract" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi9"
+        android:layout_below="@+id/edi8"
+        android:paddingStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_700"
+        android:text="Answer :"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+
+        />
+
+    <TextView
+        android:id="@+id/activitysubtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:text="Activity :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/imgsub"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/activitysubtract"
+        android:background="@drawable/images"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <TextView
+        android:id="@+id/multiplica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgsub"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:text="        The parts of a multiplication sentence are the multiplicand, multiplier, and product. The multiplicand is the first number, the multiplier is the second number, and the product is the answer."
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/multiplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/multiplica"
+        android:text="Multiplication :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingStart="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi10"
+        android:layout_below="@+id/multiplication"
+        android:paddingStart="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_200"
+        android:layout_marginTop="2dp"
+        android:text="Enter Number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi11"
+        android:layout_below="@+id/edi10"
+        android:paddingStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_200"
+        android:text="Enter Number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edi11"
+        android:layout_marginStart="10dp"
+        android:background="@color/purple_200"
+        android:layout_marginTop="2dp"
+        android:text="Multi" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi12"
+        android:layout_below="@+id/edi11"
+        android:paddingStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/teal_700"
+        android:text="Answer :"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+
+        />
+
+    <TextView
+        android:id="@+id/activitymult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:text="Activity :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/imgmult"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/activitymult"
+        android:background="@drawable/images"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+</RelativeLayout>
